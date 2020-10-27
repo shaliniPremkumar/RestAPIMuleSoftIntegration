@@ -34,7 +34,7 @@ The project is to consume a web service exposed via **Docker** and create a **RE
 > - Used the various data weave **Transform Message** functions such as **read, write, map** throughout the project.
 > - Kept the project design simple enough to be understood easily.
 > - Implemented the routing via **API Kit router** and **API Console**, which enable the API to be run via an API call and via the console respectively, embedding the RAML.
-> - Designed seperate flows that has increased the reusability of certain functions.
+> - Designed separate flows that has increased the reusability of certain functions.
 > - Ensured that a **formatted JSON** output is sent back to the end user.
 
 
