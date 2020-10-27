@@ -1,0 +1,30 @@
+{
+  "configs": [
+    "globalweather.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:dummy:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "globalWeatherRestAPI"
+      ],
+      "exportedResources": [
+        "application-types.xml",
+        "examples/getCitiesByCountryResponseXMLExample.XML",
+        "examples/getWeatherResponseXMLExample.XML",
+        "global-weather.wsdl",
+        "globalweather.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}

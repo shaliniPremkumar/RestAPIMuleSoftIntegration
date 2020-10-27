@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>c714d793-958c-47a8-be33-70abb1affea8</groupId>
+  <artifactId>globalweatherAPI</artifactId>
+  <version>1.0.1</version>
+  <name>Global Weather API</name>
+  <description>Welcome to the _Global Weather API_ Documentation. The _Global Weather API_
+     allows you to connect the Global Weather web service to our application
+     and provide the weather information for any city in the world.</description>
+  <repositories>
+    <repository>
+      <id>anypoint-exchange</id>
+      <name>Anypoint Exchange</name>
+      <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+    </repository>
+  </repositories>
+</project>
